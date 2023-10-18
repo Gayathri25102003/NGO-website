@@ -163,13 +163,14 @@
 
 .content {
     display: flex;
-    justify-content: space-around;
-    padding: 276px 40px 1px 105px;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: space-around;*/
+    padding:  200px 10px 61px 105px;
 }
 
 #line img {
     width: 1200px;
-    padding-left: 30px;
     color: rgba(229, 229, 229, 1);
 
 }
@@ -182,8 +183,8 @@
 }
 
 #text2 p {
-    padding-left: 2px;
-    padding-left: 25px;
+    /* padding-left: 2px;
+    padding-left: 25px; */
     font-family: "Nunito-SemiBold";
     font-weight: 600;
     color: rgba(255, 255, 255, 1);
@@ -966,7 +967,7 @@
     color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 80px 40px;
+    padding: 80px 80px;
 }
 /* .footerlinks {
     display: grid;
@@ -1007,11 +1008,6 @@
     line-height: 26px;
     letter-spacing: 0px;
 }
-
-.footerframe {
-    padding-left: 30px;
-}
-
 .footerframe p {
     font-family: "Nunito-Bold";
     font-weight: 700;
@@ -1870,15 +1866,17 @@ hr {
     color: #1D2130;
     opacity: 60%;
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
-.form-field p {
-    border-bottom: 2.8px solid #000000;
-    width: 470px;
-
+.form-field input{
+    width: 420px;
+    height: 30px;
+    border: none;
+    border-bottom:1px solid;
+    /* background-color: #fff; */
+    color: #000;
 }
-
 .contact-msg {
     padding-left: 463px;
     padding-top: 30px;
@@ -1903,6 +1901,7 @@ textarea {
 .contact-btn {
     padding-left: 46%;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .contact-btn button {
@@ -1923,9 +1922,10 @@ textarea {
 }
 
 .contact-map iframe {
-    width: 1600px;
+    width:1892px;
     height: 500px;
-    padding-left: 287px;
+    margin-left: 53px;
+    padding-bottom: 10px;
 }
 .menu-icon{
     display: none;
