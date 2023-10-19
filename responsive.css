@@ -288,6 +288,9 @@
     .contact-sec {
         padding: 127px 82px;
     }
+    .menu-icon{
+        display: none;
+    }
 }
 @media screen and (max-width:1200px)
 {
@@ -601,10 +604,10 @@
     /* .team-section {
         height: 370vh;
     } */
-    .team-sec-text p {
-        width: 810px;
-        padding-left: 247px;
-    }
+    /* .team-sec-text p {
+        width: 762px;
+        padding-left: 345px
+    } */
     .team-members {
        display: flex;
        flex-wrap: wrap;
@@ -1141,9 +1144,6 @@
         width: 315px;
         height: 430px;
     }
-    .section3 {
-        padding-left: 6px;
-    }
     #text1st p {
         margin-left: 36px;
     }   
@@ -1242,7 +1242,7 @@
         height: 67px;
     }
     .header-bg-img {
-        top: 14%;
+        top: 20%;
     }
     .headerbg {
         height: 127px;
@@ -1278,9 +1278,13 @@
         font-size: 24px;
         line-height: 34px;
     }
+    .section3 {
+        padding: 0px 20px;
+    }
     .logos{
         display: flex;
         flex-wrap: wrap;
+        column-gap: 8px;
         padding-top: 11px;
     }
     #p3text img {
@@ -1292,8 +1296,9 @@
         padding-left: 0px;
     }
     #logo1 img {
-        width: 126px;
+        width: 120px;
         height: 20px;
+        padding-left: 0px;
     }
     /* .award-section {
         height: 1231px;
@@ -1490,28 +1495,30 @@
         padding-top: 128px;
     }
     #frame-content {
-        width: 336px;
-        height: 191px;
-        margin: 25px 20px 0px 7px;
-        padding-left: 4px;
-        padding-top: 14px;
+        width:95%;
+        height: 100%;
+        margin: 10px 10px 0px 10px;
+        /* padding-left: 4px;
+        padding-top: 14px;  */
     }
     #frame-content p {
         font-size: 22px;
         line-height: 30px;
-        padding-left: 1px;
-        width: 329px;
-        padding-top: 5px;
+        padding-left: 0px;
+        width: 345px;
+        padding-top: 0px;
     }
     .framebtn {
-        margin-left: 11px;
+        margin-left: 62px;
+        margin-top: 21px;
+        padding-bottom: 30px;
     }
     .frame-btn1 button{
-        padding: 8px 19px;
+        padding: 4px 19px;
     }
     .frame-btn2 button{
         margin-left: 11px;  
-        padding: 8px 16px;
+        padding: 4px 16px;
     }
     .event-content p::after {
         width: 278px;
@@ -1629,6 +1636,7 @@
     .features p {
         width: 100%;
         padding-left: 52px;
+        font-size: 15px;
     }
     .projectsec-content h3 {
         margin-left: 12px;
@@ -1664,6 +1672,10 @@
     }
     .form-field p {
         width: 303px;
+        padding-bottom: 16px;
+    }
+    .form-field input {
+        width: 95%;
     }
     textarea {
         width: 300px;
@@ -1676,10 +1688,13 @@
         padding: 9px 15px;
     }
     .name img {
-        margin-left: 14px;
-        width: 141px;
-        height: 35px;
+        margin-left: 9px;
+        width: 134px;
+        height: 33px;
         margin-top:17px;
+    }
+    #menu ul {
+        padding-left: 6px;
     }
     #name img {
         width: 84px;
@@ -1698,9 +1713,10 @@
         /* padding-top: 7px; */
     }
     .contact-map iframe {
-        width: 355px;
-        height: 292px;
+        width: 100%;
+        height: 100%;
         padding-left: 0px;
+        margin-left: 0px;
     }
     .whatsec-title h3 {
         width: 249px;
@@ -1711,9 +1727,9 @@
     .contactsec-title h3 {
         width: 219px;
     }
-    .btn1 {
+    /* .btn1 {
         margin-left: 30px;
-    }
+    } */
     #menu{
         display:none;
     } 
@@ -1723,7 +1739,8 @@
     }
     #menu ul li{
         display: flex;
-        flex-wrap: wrap;  
+        flex-wrap: wrap; 
+        font-size: 10px; 
     }
     .about-page{
         overflow-x: hidden;

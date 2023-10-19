@@ -86,7 +86,9 @@
     text-decoration: none;
     color: rgba(55, 65, 81, 1);
 }
-
+#menu ul li a:hover{
+    color:#22495F;
+}
 #btn1 {
     padding-top: 15px;
 }
@@ -1928,15 +1930,14 @@ textarea {
     padding-bottom: 10px;
 }
 .menu-icon{
-    display: none;
-}
-.menu-icon{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     row-gap: 5px;
-
+}
+.menu-icon{
+    display: none;
 }
 .menu-icon .line{
     width: 30px;
