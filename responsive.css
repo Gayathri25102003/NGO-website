@@ -291,6 +291,9 @@
     .menu-icon{
         display: none;
     }
+    #menu ul li a:hover{
+        color:orangered;
+    }
 }
 @media screen and (max-width:1200px)
 {
@@ -455,10 +458,10 @@
         height:240vh;
     } */
     #frame-content{
-        width: 958px;
+        width: 1051px;
         height: 351px;
         object-fit: contain;
-        margin-left: 37px;
+        margin-left: 68px;
     }
     #frame-content p{
         font-size: 40px;
@@ -468,16 +471,16 @@
         width: 891px;
     }
     .framebtn{
-        margin-left: 280px;
+        margin-left: 340px;
     }
     .frameform form{
         padding-top: 30px;
     }
     .frameform button{
-        margin-left: 180px;
+        margin-left: 162px;
     }
     .footersection{
-        padding: 80px 97px 30px 20px;
+        padding: 80px 29px 30px 20px;
     }
     .footerform p{
         font-size: 18px;
@@ -701,6 +704,9 @@
     }
     .contact-sec {
         padding: 127px 66px;
+    }
+    .frameform input {
+        width: 300px;
     }
 }
 @media screen  and (max-width:991px)

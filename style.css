@@ -87,7 +87,7 @@
     color: rgba(55, 65, 81, 1);
 }
 #menu ul li a:hover{
-    color:#22495F;
+    color:orangered;
 }
 #btn1 {
     padding-top: 15px;
@@ -1925,9 +1925,9 @@ textarea {
 }
 
 .contact-map iframe {
-    width:1892px;
+    width:1850px;
     height: 500px;
-    margin-left: 53px;
+    margin-left: 35px;
     padding-bottom: 10px;
 }
 .menu-icon{
