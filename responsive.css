@@ -80,9 +80,9 @@
         height: 170vh;
     } */
     #frame-content {
-        width: 1150px;
+        width: 100%;
         height: 384px;
-        margin-left: 90px;
+        /* margin-left: 90px; */
     }
     #frame-content p {
         padding-top: 47px;
@@ -458,10 +458,10 @@
         height:240vh;
     } */
     #frame-content{
-        width: 1051px;
+        width: 100%;
         height: 351px;
         object-fit: contain;
-        margin-left: 68px;
+        /* margin-left: 68px; */
     }
     #frame-content p{
         font-size: 40px;
@@ -837,9 +837,8 @@
         padding-left:2px;
     }
     #frame-content {
-        width: 715px;
+        width: 100%;
         height: 300px;
-        margin-left: 25px;
     }
     #frame-content p {
         font-size: 37px;
@@ -852,7 +851,8 @@
         margin-left: 201px;
     }
     .event-date1 {
-        padding-left: 27px;
+        margin-left: 24px;
+        padding-left: 0px;
     }
     #event1 p {
         width: 346px;
@@ -860,7 +860,8 @@
         padding-left: 2px;
     }
     .event-date2 {
-        padding-left: 27px;
+        margin-left: 24px;
+        padding-left: 0px;
     }
     #event2 p {
         width: 369px;
@@ -890,7 +891,7 @@
         margin-top: 62px;
     } */
     #event2::after{
-        margin-left:12px;
+        margin-left:4px;
     }
     .frame-para p {
         width: 346px;
@@ -1112,15 +1113,16 @@
         padding-left: 307px;
     }
     .contact-map iframe {
-        width: 708px;
+        width: 100%;
         height: 372px;
         padding-top: 0px;
+        margin-left: 0px;
     }
     .name img {
         /* margin-left: 26px; 
         width: 708px;
         height: 372px;
-         margin-top: 14px; */
+        margin-top: 14px; */
         width: 121px;
         height: 32px;
         margin-top: 20px;
@@ -1130,6 +1132,9 @@
     }
     .projectsec-bgimg p {
         width: 300px;
+    }
+    .service {
+        column-gap: 0px;
     }
 }
 @media screen  and (max-width:650px){
@@ -1374,12 +1379,12 @@
     .journay-stat {
         padding-left: 41px;
     }
-    #frame-content {
-        width: 330px;
-        height: 107px;
-        border-radius: 10px;
-        margin: 5px 20px 0px 10px ;
-        padding-left: 4px;
+    #frame-content p {
+        font-size: 15px;
+        line-height: 23px;
+        padding-left: 20px;
+        width: 290px;
+        padding-top: 5px;
     }
     .team-sec-text p {
         width:100%;
@@ -1500,6 +1505,10 @@
         font-size: 21px;
         padding-top: 128px;
     }
+    .framesection {
+        width: 100%;
+        padding: 20px 1px;
+    }
     #frame-content {
         width:95%;
         height: 100%;
@@ -1508,14 +1517,14 @@
         padding-top: 14px;  */
     }
     #frame-content p {
-        font-size: 22px;
-        line-height: 30px;
-        padding-left: 0px;
-        width: 345px;
-        padding-top: 0px;
+        font-size: 15px;
+        line-height: 25px;
+        padding-left: 25px;
+        width: 304px;
+        padding-top: 10px;
     }
     .framebtn {
-        margin-left: 62px;
+        margin-left: 33px;
         margin-top: 21px;
         padding-bottom: 30px;
     }
